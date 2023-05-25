@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:liquid_progress_indicator/liquid_progress_indicator.dart';
+import 'package:liquid_progress_indicator_v2/liquid_progress_indicator.dart';
 
 class LiquidCircularProgressIndicatorPage extends StatelessWidget {
   @override
@@ -77,7 +77,7 @@ class _AnimatedLiquidCircularProgressIndicator extends StatefulWidget {
 class _AnimatedLiquidCircularProgressIndicatorState
     extends State<_AnimatedLiquidCircularProgressIndicator>
     with SingleTickerProviderStateMixin {
-  AnimationController _animationController;
+  late AnimationController _animationController;
 
   @override
   void initState() {
